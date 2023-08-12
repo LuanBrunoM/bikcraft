@@ -38,19 +38,18 @@
   .partners {
     padding-bottom:  60px;
   }
-
+  .partners li {
+    padding: 20px;
+  }
   .partners h2 {
     margin-bottom:  20px;
   }
-
   .partners ul {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .partners li:nth-child(n + 3) {
     border-top: 2px solid var(--color-2);
   }
-
   .partners li:nth-child(odd) {
     border-left: none;
   }
