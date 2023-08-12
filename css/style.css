@@ -8,5 +8,8 @@
 @import "./utilities/components.css";
 
 /* Home */
-@import "./home/introduction.css"
+@import "./home/introduction.css";
+
+/* Bikes */
+@import "./bikes/bike-list.css"
 
