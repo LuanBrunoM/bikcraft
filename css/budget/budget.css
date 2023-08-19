@@ -115,10 +115,6 @@
   display: none;
 }
 
-.budget-insurance {
-  display: none;
-}
-
 .content-budget h2,
 .content-budget h2:nth-of-type(n + 2) {
   margin-top: 20px;
