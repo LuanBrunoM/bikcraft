@@ -1,28 +1,24 @@
 // Ativar Links do Menu
 const links = document.querySelectorAll('.header-menu a');
 
-function activateLinks(link) {
+links.forEach((link) => {
   const url = location.href
   const href = link.href
 
-  
   if(url.includes(href)) {
     link.classList.add('active');
   }
-}
-links.forEach(activateLinks)
+});
 
-//Ativar items do orçamento
+// Ativar items do orçamento
 const parameters = new URLSearchParams(location.search);
 
-function activeProduct(parameter) {
+parameters.forEach((parameter) => {
   const element = document.getElementById(parameter);
   if(element) element.checked = true;
-}
+});
 
-parameters.forEach(activeProduct);
-
-//Perguntas Frequentes
+// Perguntas Frequentes
 const questions = document.querySelectorAll('.questions button');
 
 function activeQuestion(event) {
@@ -35,8 +31,20 @@ function activeQuestion(event) {
   question.setAttribute('aria-expanded', active);
 }
 
-function eventQuestions(question) {
-  question.addEventListener('click', activeQuestion)
+questions.forEach((question) => {
+  question.addEventListener('click', activeQuestion);
+});
+
+// Galeria de bicicletas
+const gallery = document.querySelectorAll('.bike-images img');
+const galleryContainer = document.querySelector('.bike-images');
+
+function changeImage(event) {
+  const img = event.currentTarget;
+  const media = matchMedia('(min-width: 1000px)').matches;
+  if(media) galleryContainer.prepend(img);
 }
 
-questions.forEach(eventQuestions);
+gallery.forEach((img) => {
+  img.addEventListener('click', changeImage);
+});
