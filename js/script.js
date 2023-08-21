@@ -48,3 +48,6 @@ function changeImage(event) {
 gallery.forEach((img) => {
   img.addEventListener('click', changeImage);
 });
+
+// Animação
+if(window.SimpleAnime) new SimpleAnime();
