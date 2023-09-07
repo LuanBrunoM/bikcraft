@@ -4,7 +4,7 @@ Criado durante o curso de Front-End da plataforma Origamid, a Bikcraft é uma pl
 Acesse o [e-commerce](https://bikcraft-lime-omega.vercel.app/)
 
 ## :art: Figma
-Acesse o layout [aqui](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0?node-id=160%3A2761)
+Acesse o layout [aqui](https://www.figma.com/file/D1YjaQir34EHq1pT4Lfr2P/bikcraft-figma?type=design&node-id=0%3A1&mode=design&t=yL8vLU9Z435EwazC-1)
 
 ## :rocket: Tecnologias
 * HTML
@@ -17,4 +17,4 @@ Acesse o layout [aqui](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it
 <img width="400px"  height="312px" src="./.github/images/img5.png" /> <img width="400px"  height="312px" src="./.github/images/img6.png" />
 
 ## :iphone: Mobile
-<img width="398px" src="./.github/images/img7.png" /> <img width="398px" src="./.github/images/img8.png" />
+<img width="398px" src="./.github/images/img7.png" />
